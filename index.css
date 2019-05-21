@@ -1,4 +1,144 @@
 html, body {
   font-family: Helvetica, sans-serif;
   font-size: 16px;
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+.header-container{
+  background-color: #35373a;
+  width: 100%;
+  height: 48vh;
+  border: solid 1px;
+}
+.header-container span{
+  font-size: 4.20em;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin-top: 135px;
+  margin-left: 3.8px;
+}
+hr{
+  width: 195px;
+  margin-top: 24.5px;
+}
+.content-box{
+  text-align: center;
+  width: 100%;
+  height: 63vh;
+  border: solid white;
+}
+.content{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 124.7px;
+}
+.content-title{
+  text-transform: uppercase;
+  letter-spacing: 3.4px;
+  font-size: 2em;
+  color: #797d84;
+}
+.content-text{
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 32px;
+  margin-left: 25px;
+  margin-right: 25px;
+  letter-spacing: -1.7px;
+  margin-bottom: 30px;
+  font-weight: 50;
+  color: #797d84;
+}
+.content-footer{
+  border: solid 1.5px;
+  width: 193px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1em;
+  text-transform: uppercase;
+  height: 4vh;
+  padding-top: 18px;
+  letter-spacing: 1.7px;
+  color: #797d84;
+}
+.content-box-2{
+  
+  width: 75%;
+  margin: 0 auto;
+  height: 149vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: space-between;
+  text-align: center;
+}
+.box-content{
+  width: 100%;
+  margin: 0 auto;
+  height: 100px;
+  color: #797d84;
+  margin-top: 43px;
+  font-size: 1.1em;
+}
+
+.box{
+  width: 48%;
+  background-color: white;
+}
+.image{
+  height: 31vh;
+  background-color: gray;
+  background-blend-mode: multiply;
+}
+.image1{
+  background-image: url("images/pic01.jpg");
+  
+}
+.image2{
+  background-image: url("images/pic02.jpg");
+
+}
+.image3{
+  background-image: url("images/pic03.jpg");
+
+
+}
+.image4{
+  background-image: url("images/pic04.jpg");
+  
+}
+
+a{
+  color: #797d84;
+  text-decoration: none;
+}
+.link{
+  border: solid 2px #999;
+  width: 89px;
+  margin: 0 auto;
+  padding: 8px;
+  height: 22px;
+}
+p{
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 32px;
+  margin-left: 25px;
+  margin-right: 25px;
+  letter-spacing: -1.7px;
+  margin-bottom: 30px;
+  font-weight: 50;
+  color: #797d84;
+}
+
+.border{
+  border-bottom: solid 2px #333;
+  height: 58vh;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: -70px;
 }
