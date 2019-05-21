@@ -1,4 +1,42 @@
-html, body {
-  font-family: Helvetica, sans-serif;
-  font-size: 16px;
+html,
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f4;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    border: 5px dotted red;
+    height: 47vh;
+    background: #313131;
+}
+
+.text-box {
+    text-align: center;
+    margin-top: 97px;
+    padding: 5px;
+    border: 1px solid green;
+}
+
+.header .text-box p {
+    color: #ffffff;
+    margin: auto;
+    font-size: 4em;
+    line-height: 2.1;
+    border-bottom: 1px solid #fff;
+    width: 200px;
+}
+
+.box-1 {
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+    border: 2px solid blue;
+    height: 46.5vh;
+    width: 75%;
 }
