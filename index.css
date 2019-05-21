@@ -21,12 +21,108 @@ html, body {
   align-items: center;
   height: 48.114vh;
   width: 100%;
-  background-color: red;
+  background-color: #313131;
 }
 
 .header-text-box {
+  display: flex;
+  justify-content: center;
   width: 100%;
   height: auto;
-  min-height: 150px;
+  min-height: 110px;
+}
+
+.header-text-box div {
+  display: flex;
+  justify-content: center;
+  width: 14.5%;
+  height: auto;
+  min-height: 115px;
+  border-bottom: 2px solid #fff;
+}
+
+.header-text-box div p {
+  font-family: Arial;
+  color: #fff;
+  position: relative;
+  top: 12px;
+  transform: scale(.97, 1.02);
+  letter-spacing: .5px;
+  font-size: 4rem;
+}
+
+.container-body {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  min-height: 900px;
+  width: 75.4%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-first {
+  width: 99.5%;
+  height: 355px;
+  background-color: red;
+  position: relative;
+  top: 65px;
+}
+
+.header-content-first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 47px;
+  height: auto;
+  min-height: 75px;
+  width: 100%;
+  background-color: blue;
+}
+
+.header-content-first h1 {
+  transform: scale(.9, 0.9);
+  word-spacing: 6px;
+  font-weight: normal;
+  font-size: 33.7px;
+  letter-spacing: 4px;
+}
+
+.text-content-first {
+  top: 45px;
+  position: relative;
+  height: auto;
+  min-height: 20px;
+  width: 100%;
+  background-color: rgb(14, 177, 87);
+}
+
+.text-content-first div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  min-height: 100px;
+  width: 50%;
+  background-color: aqua;
+}
+
+.text-content-first div p {
+  line-height: 20px;
+  letter-spacing: .1px;
+  word-spacing: 2px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.button-content-first {
+  position: relative;
+  top: 45px;
+  height: auto;
+  min-height: 83px;
+  width: 100%;
   background-color: blue;
 }
