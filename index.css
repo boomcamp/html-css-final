@@ -162,39 +162,50 @@ html, body {
   font-weight: 700;
 }
 .image-1{
-  background-image: url("/images/pic01.jpg");
+  background-image: url("images/pic01.jpg");
   
 }
 
 
 .image-2{
-  background-image: url("/images/pic02.jpg");
+  background-image: url("images/pic02.jpg");
  
 
 }
 
 
 .image-3{
-  background-image: url("/images/pic03.jpg");
+  background-image: url("images/pic03.jpg");
   
 }
 
 
 .image-4{
-  background-image: url("/images/pic04.jpg");
+  background-image: url("images/pic04.jpg");
 }
 
 
 @media screen 
  
-  and (max-device-width: 1200px) 
+  and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
     
     .box{
       width: 100%;
     }
-    .container-w
+   
+}
 
+
+@media screen 
+ 
+  and (max-device-width: 1180px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    
+    .box{
+      width: 100%;
+    }
+   
 }
 
 @media screen 
@@ -206,5 +217,8 @@ html, body {
      
      width: 100%;
    }
+   .container-wrapper-2{
+    width: 100%;
+  }
 
 }
