@@ -1,4 +1,159 @@
-html, body {
-  font-family: Helvetica, sans-serif;
-  font-size: 16px;
+html, body{
+    width: 100%;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    color: #444444;
 }
+
+.final{
+    width: 100%;
+    height: 370px;
+    background-color: #323233;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.final-box{
+    margin-top: -20px;
+    width: 139px;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.final-box-span{
+    color: #ffffff;
+    font-size: 63px;
+}
+
+/*    2nd row      */
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.loren-ipsum{
+    width: 75%;
+    height: 360px;
+    margin-top: 60px; 
+    margin-bottom: 42px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+p.title{
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-top: 70px;
+}
+
+.learnmore-btn{
+    width: 16%;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    padding: 15px;
+    font-size: 12px;
+    letter-spacing: 5px;
+    margin-top: 58px;
+}
+
+/* images with description */
+
+.img-box-con{
+    width: 75%;
+    
+}
+
+.img-box{
+    width: 48%;
+    background-color: #ffffff;
+    margin: 10px;
+}
+
+.margin-bottom{
+    margin-bottom: 50px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+
+.img-box img{
+    width: 100%;
+    height: 31%;
+    background-size: cover;
+}
+
+.img-desc{
+    padding: 40px 50px;
+    line-height: 1.3;
+}
+
+.more-btn{
+    width: 15%;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    padding: 10px;
+    margin-top: 28px;
+    margin-bottom: 85px;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+/* footer */
+
+.getstarted-btn{
+    width: 16.5%;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.loren-ipsum-footer{
+    width: 75%;
+    height: 300px;
+    text-align: center;
+}
+
+.loren-ipsum-footer .title,p{
+    margin-top: 55px;
+}
+
+hr{
+    size: 30px;
+    color: #323233;
+    margin-top: 40px;
+}
+
+/* image overlay */
+.img-text{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+  }
+
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
