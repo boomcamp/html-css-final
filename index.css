@@ -9,6 +9,14 @@ html, body {
   margin: 0;
 }
 
+p {
+  color: #757575;
+}
+
+h1 {
+  color: #444444;
+}
+
 .container-all {
   height: auto;
   width: 100%;
@@ -52,10 +60,12 @@ html, body {
 }
 
 .container-body {
+  padding-bottom: 20px;
   display: flex;
   justify-content: center;
   height: auto;
-  min-height: 900px;
+  flex-direction: column;
+  min-height: 100px;
   width: 75.4%;
   margin-left: auto;
   margin-right: auto;
@@ -64,7 +74,6 @@ html, body {
 .content-first {
   width: 99.5%;
   height: 355px;
-  background-color: red;
   position: relative;
   top: 65px;
 }
@@ -78,7 +87,6 @@ html, body {
   height: auto;
   min-height: 75px;
   width: 100%;
-  background-color: blue;
 }
 
 .header-content-first h1 {
@@ -95,7 +103,6 @@ html, body {
   height: auto;
   min-height: 20px;
   width: 100%;
-  background-color: rgb(14, 177, 87);
 }
 
 .text-content-first div {
@@ -106,23 +113,190 @@ html, body {
   margin-right: auto;
   height: auto;
   min-height: 100px;
-  width: 50%;
-  background-color: aqua;
+  width: 80%;
 }
 
 .text-content-first div p {
-  line-height: 20px;
-  letter-spacing: .1px;
+  position: relative;
+  top: 2px;
+  line-height: 25.8px;
+  letter-spacing: .17px;
   word-spacing: 2px;
   text-align: center;
-  font-size: 17px;
+  font-size: 16px;
+  font-weight: 100;
 }
 
 .button-content-first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   top: 45px;
   height: auto;
-  min-height: 83px;
+  min-height: 94px;
   width: 100%;
-  background-color: blue;
+}
+
+.button-content-first button {
+  height: 48px;
+  width: 196px;
+  padding: 2px;
+  border: 2px solid #313131;
+  background-color: #ffffff;
+  color: #444444;
+  border-radius: 4px;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.content-second {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 99.5%;
+  height: auto;
+  min-height: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 65px;
+}
+
+.cont-sec {
+  position: relative;
+  top: 64.9px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+  min-height: 100px;
+  width: 100%;
+}
+
+.content-box-sec {
+  margin-bottom: 30px;
+  height: 540px;
+  width: 496.8px;
+  border-radius: 4px;
+}
+
+.cont-sec-img1 {
+  width: 100%;
+  height: 240px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background-image: url("images/pic01.jpg");
+}
+
+.cont-sec-img2 {
+  width: 100%;
+  height: 240px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background-image: url("images/pic02.jpg");
+}
+
+.cont-sec-img3 {
+  width: 100%;
+  height: 240px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background-image: url("images/pic03.jpg");
+}
+
+.cont-sec-img4 {
+  width: 100%;
+  height: 240px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background-image: url("images/pic04.jpg");
+}
+
+.cont-sec-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 35px;
+  height: 150px;
+  width: 100%;
+}
+
+.cont-sec-text p {
+  color: #757575;
+  position: relative;
+  top: 3px;
+  text-align: center;
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: lighter;
+  word-spacing: 0.1px;
+  letter-spacing: 0.1px;
+}
+
+.cont-sec-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 35px;
+  width: 100%;
+  height: 90px;
+}
+
+.cont-sec-button button {
+  height: 41px;
+  width: 100px;
+  border-radius: 4px;
+  border: 2px solid #757575;
+  color: #444444;
+  letter-spacing: 2.9px;
+  font-size: 12px;
+  background-color: white;
+}
+
+.cont-overlay-sec {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 496.8px;
+  height: 240px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.28);
+}
+
+.cont-overlay-sec h1 {
+  position: relative;
+  top: -2px;
+  font-size: 23px;
+  letter-spacing: 3.9px;
+  word-spacing: 3px;
+  font-weight: 100;
+  color: white;
+}
+
+.content-last {
+  position: relative;
+  top: 160px;
+  background-color: red;
+  width: 99.5%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+}
+
+.content-last
+
+.border-baby {
+  position: relative;
+  top: 160px;
+  background-color: aqua;
+  height: 60px;
+  width: 99.5%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #444444;
 }
