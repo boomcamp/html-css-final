@@ -2,3 +2,31 @@ html, body {
   font-family: Helvetica, sans-serif;
   font-size: 16px;
 }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container-all {
+  height: auto;
+  width: 100%;
+  min-height: 2500px;
+}
+
+.header-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48.114vh;
+  width: 100%;
+  background-color: red;
+}
+
+.header-text-box {
+  width: 100%;
+  height: auto;
+  min-height: 150px;
+  background-color: blue;
+}
