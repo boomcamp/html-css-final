@@ -13,7 +13,7 @@ html, body {
 }
 
 .header{
-  width: 74.5%;
+  width: 100%;
   height: 370px;
   background-color: #303030;
 }
@@ -39,7 +39,7 @@ html, body {
 }
 
 .box{
-  width: 55.4%;
+  width: 75%;
   height: 355px;
   background-color: white;
   margin-top: 65px;
@@ -64,12 +64,13 @@ html, body {
 
 .btn-learn{
   width: 19%;
-  height: 45px;
+  height: 46px;
   border: 2px solid #696969;
   background-color: white;
-  margin-top: 20px;
+  margin-top: 19px;
   font-weight: normal;
   color: #696969;
+  letter-spacing:3.5px;
 }
 
 .gallery{
@@ -95,6 +96,7 @@ h2{
   color: white;
   margin-top: -1px;
   padding: 105px;
+  letter-spacing: 1px;
 }
 
 p{
@@ -103,10 +105,11 @@ p{
   line-height: 150%;
   font-weight: normal;
   margin-top: 50px;
+  line-height: 26px;
 }
 
 .gallery-content1{
-  width: 27%;
+  width: 36.4%;
   height: 540px;
   background-color: white;
   margin-top: 65px;
@@ -114,7 +117,7 @@ p{
 }
 
 .gallery-content2{
-  width: 27%;
+  width: 36.4%;
   height: 540px;
   background-color: white;
   margin-top: 65px;
@@ -126,7 +129,7 @@ p{
   height: 40px;
   border: 2px solid #696969;
   background-color: white;
-  margin-top: 25px;
+  margin-top: 17px;
   font-weight: normal;
   color: #696969;
 }
@@ -138,7 +141,7 @@ p{
 }
 
 .gallery-content3{
-  width: 27%;
+  width: 36.4%;
   height: 540px;
   background-color: white;
   margin-top: 30px;
@@ -146,7 +149,7 @@ p{
 }
 
 .gallery-content4{
-  width: 27%;
+  width: 36.4%;
   height: 540px;
   background-color: white;
   margin-top: 30px;
@@ -185,17 +188,17 @@ p{
   font-weight: normal;
   font-size: 16px;
   color: #696969;
-  line-height: 150%;
+  line-height: 160%;
 }
 
 .btn-started{
-  width: 20%;
-  height: 50px;
+  width: 27%;
+  height: 48px;
   border: 2px solid #696969;
   margin-top: 20px;
   font-weight: normal;
   color: #696969;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
 }
 
 .bottom{
