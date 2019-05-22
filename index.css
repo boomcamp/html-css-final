@@ -1,4 +1,158 @@
 html, body {
   font-family: Helvetica, sans-serif;
   font-size: 16px;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+header{
+  background-color: #313131;
+  color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  line-height: .7em;
+  flex-direction: column;
+  font-size: 60px;
+}
+
+.head-title{
+  padding-bottom: 10px;
+}
+
+main{
+  margin: 80px 175px;
+} 
+
+.first{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 350px;
+  color: #444444;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.first-title{
+  font-size: 32px;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
+.first-content{
+  font-size: 18px;
+  padding: 0 225px;
+  text-align: center;
+  line-height: 25px;
+  color: #6a6a6a;
+}
+
+.padded{
+  padding-bottom: 30px;
+}
+
+.button{
+  font-size: 14px;
+  border: 2px solid #6a6a6a;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: .2em;
+  padding: 15px 30px;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.duo-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.duo{
+  margin: 30px 0;
+  width: 47.5%;
+  overflow: hidden;
+  border-radius: 5px;
+  height: 550px;
+  background-color: white;
+}
+
+.img-1{
+  background-image: url(images/pic01.jpg);
+}
+
+.img-2{
+  background-image: url(images/pic02.jpg);
+}
+
+.img-3{
+  background-image: url(images/pic03.jpg);
+}
+
+.img-4{
+  background-image: url(images/pic04.jpg);
+}
+
+.img-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 110px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .3em;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.duo-content{
+  color: #6a6a6a;
+  line-height: 25px;
+  text-align: center;
+  padding: 0 45px;
+  margin-bottom: 30px;
+}
+
+.width10{
+  width: 10%;
+}
+
+.center{
+  margin: 0 auto;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid #6a6a6a;
+}
+
+.footer-title{
+  color: #444444;
+  font-size: 26px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  margin: 30px auto;
+}
+
+.footer-content{
+  color: #6a6a6a;
+  text-align: center;
+  margin: 0 300px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.margin-bottom-100{
+  margin-bottom: 100px;
 }
