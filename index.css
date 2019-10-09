@@ -2,3 +2,141 @@ html, body {
   font-family: Helvetica, sans-serif;
   font-size: 16px;
 }
+body{
+  background: #dcdcdc;
+  margin: 0px 243px;
+}
+header{
+  background-color: black;
+  text-align: center;
+  height: 370px;
+  position: relative;
+}
+header h4{
+  position: absolute;
+  width: 145px;
+  padding: 27px;
+  top: 7%;
+  left: 42.7%;
+  border-bottom: 2px solid white;
+  font-weight: 100;
+  font-size: 4em;
+  color: white;  
+}
+.center{
+  text-align: center;
+  margin: auto;
+}
+button{
+  border: 2px solid black;
+  padding: 15px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background: transparent;
+  letter-spacing: 4px;
+  font-weight: 3px;
+}
+
+.intro{
+  background-color: white;
+  width: 75%;
+  height: 260px;
+  margin-top: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 5px;
+}
+.intro .title{
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 3.5px;
+}
+.intro .intro-content{
+  margin-top: 30px;
+  width: 48%;
+  line-height: 25px;
+}
+.intro .intro-btn{
+  width: 200px;
+  margin: 35px;
+}
+
+.images{
+  display: flex;
+  width: 81%;
+  margin-top: 30px;
+}
+.left{
+  margin-left: 30px;
+}
+.img-card{
+  margin-top: 31px;
+  width: 93%;
+  background-color: white;
+  border-radius: 5px;
+}
+.img-card-content{
+  position: relative;
+  background-color: #dcdcdc;
+}
+.content-img-1{
+  background-image: url("./images/pic01.jpg");
+}
+.content-img-2{
+  background-image: url("./images/pic03.jpg");
+}
+.content-img-3{
+  background-image: url("./images/pic02.jpg");
+}
+.content-img-4{
+  background-image: url("./images/pic04.jpg");
+}
+.content-design{
+  width: 495px;
+  height: 245px;
+  opacity: 0.9;
+  border-radius: 5px 5px 0px 0px;
+}
+.img-inner-content{
+  text-transform: uppercase;
+  top: 37%;
+  left: 20%;
+  position: absolute;
+  color: white;
+  letter-spacing: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.img-content{
+  line-height: 25px;
+  padding: 31px;
+  width: 80%;
+}
+.img-btn{
+  margin: 20px;
+  padding: 10px;
+  width: 100px;
+}
+
+footer{
+  padding: 70px;
+}
+.footer-title{
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+  font-weight: 100;
+}
+.footer-inner-content{
+  margin-top: 35px;
+  width: 400px;
+  line-height: 25px;
+}
+.footer-btn{
+  width: 200px;
+  margin-top: 33px;
+}
+footer hr{
+  margin-top: 100px;
+  width: 84.5%;
+  border: .5px solid black;
+}
