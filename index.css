@@ -4,7 +4,7 @@ html, body {
 }
 body{
   background: #dcdcdc;
-  margin: 0px 243px;
+  margin: 0px;
 }
 header{
   background-color: black;
@@ -53,7 +53,7 @@ button{
 }
 .intro .intro-content{
   margin-top: 30px;
-  width: 48%;
+  width: 500px;
   line-height: 25px;
 }
 .intro .intro-btn{
@@ -63,11 +63,11 @@ button{
 
 .images{
   display: flex;
-  width: 81%;
+  width: 1100px;
   margin-top: 30px;
 }
 .left{
-  margin-left: 30px;
+  margin-left: 40px;
 }
 .img-card{
   margin-top: 31px;
@@ -109,8 +109,10 @@ button{
 }
 .img-content{
   line-height: 25px;
-  padding: 31px;
-  width: 80%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .img-btn{
   margin: 20px;
@@ -127,16 +129,16 @@ footer{
   font-weight: 100;
 }
 .footer-inner-content{
-  margin-top: 35px;
+  margin-top: 30px;
   width: 400px;
   line-height: 25px;
 }
 .footer-btn{
   width: 200px;
-  margin-top: 33px;
+  margin-top: 30px;
 }
 footer hr{
   margin-top: 100px;
-  width: 84.5%;
+  width: 83.5%;
   border: .5px solid black;
 }
