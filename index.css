@@ -1,4 +1,258 @@
 html, body {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Almarai', sans-serif;
   font-size: 16px;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+
+}
+ .header {
+  position: relative;
+  height: 371px;
+  background-color: #3f3f3f;
+   width: 100%;
+   display: flex;
+ }
+ .header-text {
+   position: absolute;
+   top: 80px;
+   left: 614px;
+   font-size: 62px;
+   font-weight: 100;
+   color: white;
+ }
+ .line {
+    position: absolute;
+    top: 241px;
+    left: 583px;
+    width: 198px;
+    height: 2px;
+    background-color: white;
+ }
+ .container1 {
+  position: relative;
+  margin-top: 63px;
+  margin-right: 171px;
+  margin-left: 171px;
+  height: 358px;
+  border-radius: 4px;
+  background-color: white;
+ }
+
+ .text1 {
+  color: #3a3a3a;
+  font-size: 30px;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 40px;
+  left: 306px;
+}
+.text2 {
+  color: gray;
+  font-size: 16.3px;
+  position: absolute;
+  top: 122px;
+  left: 277px;
+}
+.text3 {
+  color: gray;
+  font-size: 16.3px;
+  position: absolute;
+  top: 148px;
+  left: 268px;
+}
+.text4 {
+  color: gray;
+  font-size: 16.3px;
+  position: absolute;
+  top: 175px;
+  left: 348px;
+}
+.container2 {
+ display: flex;
+ box-sizing: border-box;
+ flex-wrap: wrap;
+  justify-content: space-between;
+ margin-right: 171px;
+ margin-left: 171px;
+ border-radius: 4px;
+}
+.box {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  margin-top: 63px;
+  margin-bottom: -32px;
+  border-radius: 4px;
+  background-color: white;
+ width: 496px;
+ height: 540px;
+}
+.btn1 {
+  position: absolute;
+  top: 245px;
+  left: 413px;
+  border: 2px solid #3a3a3a;
+  background-color: white;
+  padding: 14px;  
+  padding-right: 31px;  
+  padding-left: 34px;  
+  border-radius: 4px;
+  letter-spacing: 4px;
+}
+.img1 {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: url("images/pic01.jpg");
+  background-size: 161% 167%;
+  width: 100%;
+  height: 240px;
+}
+
+.img2 {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: url("images/pic02.jpg");
+  background-size: 161% 167%;
+  width: 100%;
+  height: 240px;
+}
+
+.img3 {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: url("images/pic03.jpg");
+  background-size: 161% 167%;
+  width: 100%;
+  height: 240px;
+}
+
+.img4 {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: url("images/pic04.jpg");
+  background-size: 161% 167%;
+  width: 100%;
+  height: 240px;
+}
+.fade {
+  background-color: black;
+  opacity: 0.5  ;
+}
+.text-center {
+  padding-top: 84px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  letter-spacing: 5px;
+  font-size: 22px;
+}
+.text-center-1 {
+  position: absolute;
+  top: 277px;
+  left: 68px;
+  color: gray;
+  font-size: 16px;
+}
+.text-center-2 {
+  position: absolute;
+  top: 303px;
+  left: 72px;
+  color: gray;
+  font-size: 16px;
+  letter-spacing:
+}
+.text-center-3 {
+  position: absolute;
+  top: 329px;
+  left: 67px;
+  color: gray;
+  font-size: 16px;
+  letter-spacing:
+}
+.text-center-4 {
+  position: absolute;
+  top: 355px;
+  left: 57px;
+  color: gray;
+  font-size: 16px;
+  letter-spacing:
+}
+.text-center-5 {
+  position: absolute;
+  top: 381px;
+  left: 223px;
+  color: gray;
+  font-size: 16px;
+}
+ .btn2 {
+   position: absolute;
+   top: 450px;
+   left: 197px;
+   border: 2px solid gray;
+   color: gray;
+   background-color: white;
+   padding: 11px;  
+   padding-right: 21px;  
+   padding-left: 24px;  
+   border-radius: 4px;
+   letter-spacing: 4px;
+   font-size: 12px;
+ }
+ .container3 {
+   position: relative;
+   margin-top: 63px;
+   margin-right: 171px;
+   margin-left: 171px;
+   height: 358px;
+   padding-bottom: 100px;
+  }
+  .text11 {
+    color: #3a3a3a;
+    font-size: 30px;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 39px;
+    left: 306px;
+  }
+  .text22 {
+    color: gray;
+    font-size: 16.3px;
+    position: absolute;
+    top: 120px;
+    left: 327px;
+  }
+  .text33 {
+    color: gray;
+    font-size: 16.3px;
+    position: absolute;
+    top: 147px;
+    left: 319px;
+  }
+  .text44 {
+    color: gray;
+    font-size: 16.3px;
+    position: absolute;
+    top: 173px;
+    left: 392px;
+  }
+  .btn3 {
+    position: absolute;
+    top: 243px;
+    left: 411px;
+    border: 2px solid gray;
+    background: transparent;
+    padding: 15px;  
+    padding-right: 31px;  
+    padding-left: 31px;  
+    border-radius: 4px;
+    letter-spacing: 4px;
+  }
+.line2 {
+    position: absolute;
+    top: 389px;
+   width: 100%;
+   height: 1px;
+   background-color: gray;
 }
