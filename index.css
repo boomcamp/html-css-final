@@ -1,4 +1,353 @@
-html, body {
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+html, 
+body{
   font-family: Helvetica, sans-serif;
   font-size: 16px;
+  font-size: 12pt;
+  line-height: 1.65;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+section:first-of-type{
+  height: 48%;
+  width: 100%;
+  background-color: #313131;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 110px
+}
+section:first-of-type h1{
+  color: white;
+  text-transform: capitalize;
+  font-weight: 100;
+  font-size: 60px;
+  line-height: 95px;
+  letter-spacing: 1px;
+}
+section:first-of-type hr{
+  background-color: white;
+  height: 2px;
+  width: 12.3rem;
+}
+section:nth-of-type(2){
+  width: 100%;
+  height: auto;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+section:nth-of-type(2) article{
+  width: 76%;
+  margin: 0 auto;
+  padding: 68px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+section:nth-of-type(2) > article > div:first-of-type,
+section:nth-of-type(2) > article > div:last-of-type{
+  width: 100%;
+  height: 22rem;
+}
+section:nth-of-type(2) > article > div:first-of-type{
+  background-color: white;
+  color: #888888;
+}
+section:nth-of-type(2) > article > div:first-of-type > div,
+section:nth-of-type(2) > article > div:last-of-type > div{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  height: 100%;
+  padding: 82px 1px;
+}
+section:nth-of-type(2) > article > div:last-of-type > div{
+  padding: 48px 1px;
+  width: 40%;
+}
+section:nth-of-type(2) > article > div:first-of-type > div > h3,
+section:nth-of-type(2) > article > div:last-of-type > div > h3{
+  font-size: 28px;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  line-height: 0;
+}
+section:nth-of-type(2) > article > div:first-of-type > div > p,
+section:nth-of-type(2) > article > div:last-of-type > div > p{
+  padding: 48.5px 6px 33px 9.25px;
+  line-height: 26px;
+  letter-spacing: 0.085px;
+}
+section:nth-of-type(2) > article > div:first-of-type > div > p{
+  line-height: 26px;
+  padding: 48.5px 6px 31px 9.25px;
+  letter-spacing: 0.01px;
+}
+section:nth-of-type(2) > article > div:last-of-type > div > p{
+  padding: 48.5px 7px 33px 8px;
+  letter-spacing: 0.11px;
+  color: #666666;
+}
+section:nth-of-type(2) > article > div:first-of-type > div > h3{
+  padding-left: 1px;
+}
+section:nth-of-type(2) > article > div:first-of-type > div > p{
+  padding-left: 7px;
+}
+section:nth-of-type(2) > article > div:first-of-type > div > p > span{
+  margin-left: 0;
+  letter-spacing: 0.09px;
+}
+section:nth-of-type(2) > article > div:first-of-type > div > button,
+section:nth-of-type(2) > article > div:last-of-type > div > button{
+  text-transform: uppercase;
+  border: 2px solid #666;
+  border-radius: 2px;
+  margin-left: 3px;
+  padding: 14px 30px 15px 36px;
+  letter-spacing: 3.75px;
+}
+section:nth-of-type(2) > article > div:first-of-type > div > button{
+  margin-top: 1px;
+    text-transform: uppercase;
+    border: 2px solid #666;
+    border-radius: 5px;
+    margin-left: 3px;
+    width: 38.5%;
+    padding: 15px 0;
+    letter-spacing: 3.75px;
+    text-align: center;
+}
+section:nth-of-type(2) > article > div:last-of-type > div > button{
+  background-color: transparent;
+}
+section:nth-of-type(2) > article button{
+  background-color: white;
+}
+section:nth-of-type(2) > article > div:last-of-type{
+  margin-top: 71px;
+  border-bottom: 2px solid #d3d3d3;
+}
+section:nth-of-type(2) > article > div:nth-of-type(2),
+section:nth-of-type(2) > article > div:nth-of-type(3),
+section:nth-of-type(2) > article > div:nth-of-type(4),
+section:nth-of-type(2) > article > div:nth-of-type(5){
+  width: 48.25%;
+  background-color: white;
+  height: 538px;
+}
+section:nth-of-type(2) > article > div:nth-of-type(2),
+section:nth-of-type(2) > article > div:nth-of-type(3){
+  margin-top: 65px;
+}
+section:nth-of-type(2) > article > div:nth-of-type(4),
+section:nth-of-type(2) > article > div:nth-of-type(5){
+  margin-top: 33px;
+}
+section:nth-of-type(2) > article > div:nth-of-type(2),
+section:nth-of-type(2) > article > div:nth-of-type(3),
+section:nth-of-type(2) > article > div:nth-of-type(4)
+section:nth-of-type(2) > article > div:nth-of-type(5){
+  margin-left: 2px; 
+    border-radius: 4px;
+}
+section:nth-of-type(2) > article > div:nth-of-type(2) > div:first-of-type,
+section:nth-of-type(2) > article > div:nth-of-type(3) > div:first-of-type,
+section:nth-of-type(2) > article > div:nth-of-type(4) > div:first-of-type,
+section:nth-of-type(2) > article > div:nth-of-type(5) > div:first-of-type{
+  height: 44.5%;
+  /* opacity: 0.3; */
+  color: white;
+  text-transform: uppercase;
+  padding: 107px 0px 0 80px;
+  letter-spacing: 6px;
+  font-size: 17px;
+}
+section:nth-of-type(2) > article > div:nth-of-type(2) > div:first-of-type > *,
+section:nth-of-type(2) > article > div:nth-of-type(3) > div:first-of-type > *,
+section:nth-of-type(2) > article > div:nth-of-type(4) > div:first-of-type > *,
+section:nth-of-type(2) > article > div:nth-of-type(5) > div:first-of-type > *{
+    position: relative;
+}
+
+section:nth-of-type(2) > article > div:nth-of-type(2) > div:last-of-type,
+section:nth-of-type(2) > article > div:nth-of-type(3) > div:last-of-type,
+section:nth-of-type(2) > article > div:nth-of-type(4) > div:last-of-type,
+section:nth-of-type(2) > article > div:nth-of-type(5) > div:last-of-type{
+  text-align: center;
+    font-size: 16.5px;
+    line-height: 27px;
+    margin-left: -4px;
+    letter-spacing: -0.19px;
+}
+section:nth-of-type(2) > article > div:nth-of-type(2) > div:last-of-type{
+  padding: 47px 0px 0 0;
+  margin-left: -1px;
+}
+section:nth-of-type(2) > article > div:nth-of-type(3) > div:last-of-type{
+    padding: 47px 0px 0 0;
+    margin-left: -4px;
+}
+section:nth-of-type(2) > article > div:nth-of-type(4) > div:last-of-type{
+    padding: 47px 0px 0 0;
+    margin-left: 3px;
+}
+section:nth-of-type(2) > article > div:nth-of-type(5) > div:last-of-type{
+    padding: 47px 0px 0 0;
+    margin-left: -3px;
+}
+section:nth-of-type(2) > article > div > div:last-of-type > p{
+  color: #888888;
+}
+
+section:nth-of-type(2) > article > div:nth-of-type(2) > div:last-of-type span:nth-of-type(3),
+section:nth-of-type(2) > article > div:nth-of-type(2) > div:last-of-type span:nth-of-type(4),
+section:nth-of-type(2) > article > div:nth-of-type(2) > div:last-of-type span:nth-of-type(5),
+section:nth-of-type(2) > article > div:nth-of-type(3) > div:last-of-type span:nth-of-type(3),
+section:nth-of-type(2) > article > div:nth-of-type(3) > div:last-of-type span:nth-of-type(4),
+section:nth-of-type(2) > article > div:nth-of-type(3) > div:last-of-type span:nth-of-type(5),
+section:nth-of-type(2) > article > div:nth-of-type(4) > div:last-of-type span:nth-of-type(3),
+section:nth-of-type(2) > article > div:nth-of-type(4) > div:last-of-type span:nth-of-type(4),
+section:nth-of-type(2) > article > div:nth-of-type(4) > div:last-of-type span:nth-of-type(5),
+section:nth-of-type(2) > article > div:nth-of-type(5) > div:last-of-type span:nth-of-type(3),
+section:nth-of-type(2) > article > div:nth-of-type(5) > div:last-of-type span:nth-of-type(4),
+section:nth-of-type(2) > article > div:nth-of-type(5) > div:last-of-type span:nth-of-type(5){
+  letter-spacing: -0.125px;
+}
+section:nth-of-type(2) > article > div:nth-of-type(2) > div:last-of-type button,
+section:nth-of-type(2) > article > div:nth-of-type(3) > div:last-of-type button,
+section:nth-of-type(2) > article > div:nth-of-type(4) > div:last-of-type button,
+section:nth-of-type(2) > article > div:nth-of-type(5) > div:last-of-type button{
+  margin-top: 30px;
+    width: 100px;
+    height: 44px;
+    padding-left: 4px;
+    /* padding: 12px 23px 12px 27px; */
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    background-color: white;
+    border: 2px solid #666;
+}
+section:nth-of-type(2) > article > div:nth-of-type(4) > div:last-of-type button,
+section:nth-of-type(2) > article > div:nth-of-type(5) > div:last-of-type button{
+    height: 42px;
+        margin-top: 32px;
+}
+section:nth-of-type(2) > article > div:nth-of-type(2) > div,
+section:nth-of-type(2) > article > div:nth-of-type(3) > div,
+section:nth-of-type(2) > article > div:nth-of-type(4) > div,
+section:nth-of-type(2) > article > div:nth-of-type(5) > div{
+    position: relative;
+    overflow: hidden;
+}
+/*
+section:nth-of-type(2) > article > div:nth-of-type(2) > div:first-of-type{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+  background-image: url('images/pic01.jpg');
+}
+*/
+
+
+section:nth-of-type(2) > article > div:nth-of-type(2) > div:first-of-type{
+    padding: 107px 0px 0 79px;
+}
+section:nth-of-type(2) > article > div:nth-of-type(3) > div:first-of-type{
+  padding: 107px 0px 0 90px;
+}
+section:nth-of-type(2) > article > div:nth-of-type(4) > div:first-of-type{
+  padding: 107px 0px 0 89px;
+}
+section:nth-of-type(2) > article > div:nth-of-type(5) > div:first-of-type{
+  padding: 107px 0px 0 98px;
+}
+
+
+section:nth-of-type(2) > article > div:nth-of-type(2) > div:first-of-type a,
+section:nth-of-type(2) > article > div:nth-of-type(3) > div:first-of-type a,
+section:nth-of-type(2) > article > div:nth-of-type(4) > div:first-of-type a,
+section:nth-of-type(2) > article > div:nth-of-type(5) > div:first-of-type a{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    }
+section:nth-of-type(2) > article > div:nth-of-type(2) > div:first-of-type a:before,
+section:nth-of-type(2) > article > div:nth-of-type(3) > div:first-of-type a:before,
+section:nth-of-type(2) > article > div:nth-of-type(4) > div:first-of-type a:before,
+section:nth-of-type(2) > article > div:nth-of-type(5) > div:first-of-type a:before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25); 
+}
+h3{
+    color: white;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 0.33rem;
+    margin-top: -2px;
+    font-size: 1.25em;
+}
+section:nth-of-type(2) > article > div:first-of-type > div > p{
+    line-height: 26px;
+    letter-spacing: 0.085px;
+    padding-top: 21.5px;
+    margin-left: -1px;
+}
+section:nth-of-type(2) > article > div > div > p{
+        color: #666666;
+}
+section:nth-of-type(2) > article > div:last-of-type > div > p{
+    line-height: 27px;
+    letter-spacing: 0.14px;
+    padding-top: 48.5px;
+    margin-left: -1px;
+}
+section:nth-of-type(2) > article > div:first-of-type > div > h3{
+    margin: 0 0 1em 0;
+    color: #444444;
+}
+section:nth-of-type(2) > article > div:last-of-type > div > h3{
+    color: #444444;
+}
+section:nth-of-type(2) > article > div:last-of-type > div > button{
+    width: 202px;
+    height: 48px;
+    padding: 0;
 }
