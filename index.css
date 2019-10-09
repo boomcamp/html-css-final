@@ -78,16 +78,18 @@ html, body {
   width: 480px;
   line-height: 26px;
   margin-top: 11px;
+  color: #6d6d6d;
   
 }
 
 .learnmore{
-  border: 1px solid #333333;
+  border: 1.5px solid #333333;
   border-radius: 3px;
   padding: 14px;
   margin-top: 32px;
   padding-left: 37px;
-  padding-right: 33px;  
+  padding-bottom: 13px;
+  padding-right: 31px;
 }
 
 
@@ -125,12 +127,13 @@ html, body {
   text-align: center;
   width: 393px;
   line-height: 26px;
+  color: #6d6d6d;
 }
 
 .cover{
   width: 495px;
   height: 241px;
-  margin-bottom: 48px;
+  margin-bottom: 47px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -140,18 +143,18 @@ html, body {
   width: 60px;
   text-align: center;
   text-decoration: none;
-  border: 1px solid gray;
+  border: 1.5px solid gray;
   border-radius: 3px;
-  padding-left: 27px;
-  padding-right: 71px;
   margin-right: 0px;
-  padding-top: 12px;
-  padding-bottom: 11px;
   margin-top: 31px;
   font-size: 13px;
   letter-spacing: 3px;
   color: #333333;
   margin-bottom: 49px;
+  padding-top: 11px;
+  padding-left: 26px;
+  padding-bottom: 12px;
+  padding-right: 73px;
 }
 
 .imgcapt{
@@ -180,12 +183,12 @@ html, body {
 }
 
 .imgotwo{
-  background: url('./images/pic02.jpg');
+  background: url('./images/pic03.jpg');
 }
 
 
 .imgtres{
-  background: url('./images/pic03.jpg');
+  background: url('./images/pic02.jpg');
 }
 
 .imgquatro{
@@ -210,9 +213,11 @@ html, body {
 
 .footer p{
   width: 388px;
-    text-align: center;
-    margin-top: 32px;
-    line-height: 26px;
+  text-align: center;
+  margin-top: 32px;
+  line-height: 26px;
+  color: #6d6d6d;
+  margin-top: 31px;
 }
 
 .fheader{
@@ -223,15 +228,15 @@ html, body {
 
 .getstarted{
   margin-top: 31px;
-  padding-top: 15px;
+  padding-top: 13px;
   padding-bottom: 16px;
   margin-bottom: 98px;
   padding-right: 31px;
   padding-left: 36px;
   text-decoration: none;
   text-align: center;
-  border: 1px solid gray;
-  border-radius: 3px;
+  border: 1.5px solid gray;
+  border-radius: 5px;
   margin-right: 0px;
   font-size: 13px;
   letter-spacing: 4px;
