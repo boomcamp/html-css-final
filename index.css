@@ -1,4 +1,307 @@
 html, body {
   font-family: Helvetica, sans-serif;
   font-size: 16px;
+  margin: 0;
+  background: #f4f4f4;
+  
 }
+
+/* header start */
+.container{
+  
+  width: 1366px;
+  margin:0 auto 0;
+  background: #343434;
+  height: 370px;
+  text-align: center;
+}
+
+header .final{
+  display: flex;
+  justify-content: center;
+  
+}
+
+header h1{
+  margin: 0px;
+  padding-top: 139px;
+  color: white;
+  font-size: 64px;
+  font-weight: 300;  
+}
+
+header .final .f{
+  font-size: 66px;
+  padding-top: 138px;
+  margin-left: 3.5px;
+}
+
+
+
+
+header .line--one{
+  border: 1px solid white;
+  background: white;
+  width: 196px;
+  
+  margin-top: 28px;
+  margin-left: 584px;  
+}
+
+
+
+/* 1st content */
+
+.first--content .container{
+  color: #343434;
+  background: white;
+  width: 1020px;
+  margin-top: 60px;
+}
+
+.first--content .container h1{
+  color: #464646;
+  padding-top: 71px;
+  font-size: 33px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.first--content .container p{
+  color: #464646;
+  padding-top: 7px;
+  line-height: 25px;
+  font-size: 16.2px;
+  letter-spacing: .08px;
+}
+
+.first--content .container button{
+  color: #464646;
+  border: 2px solid #464646;
+  background: white;
+  margin-top: 14px;
+  border-radius: 3%;
+  height: 50px;
+  width: 195px;
+  letter-spacing: 2px; 
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+/* 2nd content */
+
+.second--content{
+  margin: 54px auto 0;
+  width: 1020px;
+  display: flex;
+  justify-content: center;
+}
+
+.second--content .feugiat{
+  background-image: url("images/pic01.jpg");
+  background: cover;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  width: 50%;
+  height: 500px;
+}
+
+.second--content .blandit{
+  margin-left: 29px;
+  background-image: url("images/pic02.jpg");
+  background: cover;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 500px;
+  
+}
+
+.second--content .trans{
+    border-radius: 4px;
+    background-color: rgba(52, 52, 52, 0.4);
+    padding-top: 50px;
+    height: 250px;
+}
+
+.second--content .feugiat h1,
+.second--content .blandit h1{
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 55px; /* 105 */
+  font-size: 20px;
+}
+
+.second--content .feugiat .content,
+.second--content .blandit .content{
+  margin-top: 110px;
+  height: 295px;;
+  background: white;
+  text-align: center;
+  
+}
+
+.second--content .feugiat .content p,
+.second--content .blandit .content p{
+  color: #464646;
+  line-height: 26px;
+  padding-top: 48px;
+  font-weight: 100;
+}
+
+.second--content .feugiat .content button,
+.second--content .blandit .content button{
+  color: #464646;
+  border: 2px solid #464646;
+  background: white;
+  margin-top: 14.5px;
+  border-radius: 3%;
+  height: 44px;
+  width: 98px;
+  letter-spacing: 2px; 
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+/* third content */
+
+
+.third--content{
+  margin: 70px auto 0;
+  width: 1020px;
+  display: flex;
+  justify-content: center;
+}
+
+.third--content .feugiat{
+  background-image: url("images/pic03.jpg");
+  background: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  width: 50%;
+  height: 500px;
+}
+
+.third--content .blandit{
+  margin-left: 29px;
+  background-image: url("images/pic04.jpg");
+  background: cover;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 500px;
+  
+}
+
+.third--content .trans{
+  border-radius: 4px;
+  background-color: rgba(52, 52, 52, 0.4);
+  padding-top: 50px;
+  height: 250px;
+}
+
+.third--content .feugiat h1,
+.third--content .blandit h1{
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 55px; /* 105 */
+  font-size: 20px;
+}
+
+.third--content .feugiat .content,
+.third--content .blandit .content{
+  margin-top: 110px;
+  height: 295px;;
+  background: white;
+  text-align: center;
+  
+}
+
+.third--content .feugiat .content p,
+.third--content .blandit .content p{
+  color: #464646;
+  line-height: 26px;
+  padding-top: 48px;
+  font-weight: 100;
+}
+
+.third--content .feugiat .content button,
+.third--content .blandit .content button{
+  color: #464646;
+  border: 2px solid #464646;
+  background: white;
+  margin-top: 14.5px;
+  border-radius: 3%;
+  height: 44px;
+  width: 98px;
+  letter-spacing: 2px; 
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+/* footer */
+
+footer{
+  margin: 100px auto 0;
+  width: 1366px;
+  text-align: center;
+  color: #464646;
+}
+
+footer h1{
+  margin-top: 135px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 3.5px;
+}
+
+
+footer p{
+  margin-top: 33px;
+  line-height: 25px;
+}
+
+footer button{
+  color: #464646;
+  border: 2px solid #464646;
+  background: transparent;
+  margin-top: 16px;
+  border-radius: 3%;
+  height: 47px;
+  width: 199px;
+  letter-spacing: 2px; 
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+footer div{
+  margin-left: 172px;
+  margin-top: 102px;
+  margin-bottom: 150px;
+  border: 1px solid #868686;
+  width: 1020px;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
