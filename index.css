@@ -1,4 +1,275 @@
 html, body {
   font-family: Helvetica, sans-serif;
   font-size: 16px;
+  margin:0 auto;
+  height:auto;
+  background-color:#eeeeee; 
+}
+.main{
+	width:56%;
+	margin:0 auto;
+}
+
+
+.container1{
+  margin:0 auto;
+  display: flex;
+  background-color: black;
+  height: 37vh;
+  width:74%;
+  justify-content: center;
+  align-items: center;
+  padding:2px;
+
+
+
+
+}
+.final{
+  
+  	display: flex;
+	color:white;
+	font-size: 4rem;
+	font-family: 'lato', sans-serif;
+	padding: 10px 30px;
+	border-bottom: 2px solid #ccc;
+	padding-bottom: 28px;
+	padding-right:31px;
+  
+  
+
+}
+.container2 {
+    justify-content: center;
+    align-items: center;
+    background-color: #EDE8E8;
+    margin-top: 53px;
+}
+.firstbox{
+ 	 margin:0 auto;
+	background-color: white;
+	padding:20px 0 70px 0;
+	
+
+
+}
+.firstbox h5{
+	font-family: 'lato', sans-serif;
+	font-size: 30px;
+	letter-spacing: 5px;
+	text-align: center;
+ 	 color:grey;
+ 	 margin-top:6%;
+}
+.firstbox p{
+	font-family: 'lato', sans-serif;
+	text-align: center;
+ 	color:grey;
+  	font-size: 16.5px;
+	line-height: 27px;
+	padding-bottom: 10px;	
+	margin-top:-2%;
+	
+}
+.firstbox .btn{
+	display: flex;
+   font-size: 15px;
+   height: 5vh;
+   width: 19%;
+   margin-top: 20px !important;
+   color:#696464;
+   border-style: groove;
+   background-color: white;
+   cursor: pointer;
+   color:grey;
+   border-radius: 4px;
+   letter-spacing: 1.9px;
+   border:2px solid #847F7F;
+   justify-content: center;
+   margin: 0 auto;
+}
+.container3{
+
+	display: flex;
+  	justify-content: center;
+	margin-top: 6%;
+  
+
+
+}
+.imgcontent{
+	padding:0 15px;
+}
+.container3 img{ 
+	width: 27vw; 
+	height: 240px;
+
+
+}
+
+.content1{
+	display: flex;
+	flex-direction: column;
+	margin:0 auto;
+	background-color: white;
+	height: 62%;
+	justify-content: center;
+	align-items: center; 
+}
+.content1 p{
+	padding: 4px 50px;
+	margin-top:7.5%;
+	text-align: center;
+	line-height: 25px;
+	margin-top:0.1%;
+}
+.btn1{
+
+   font-size: 13px;
+   height: 4.5vh;
+   width: 100px;
+   margin-left: 1px;
+   margin-top: 15px;
+   color:#807B7B;
+   border-style: groove;
+   background-color: white;
+   cursor: pointer;
+   color:#5D5858;
+   border-radius: 4px;
+   letter-spacing: 1.9px;
+   border:2px solid #5D5858;
+}
+.container4{
+	display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+  	margin-top: 100px;
+  	
+
+
+}
+.container4 img{
+	margin: 10px;
+	height: 12.7vw;
+	width: 27vw;
+	padding:5px;
+
+}
+.content2{
+	display: flex;
+	flex-direction: column;
+	margin:0 auto;
+	background-color: white;
+	height: 62%;
+	justify-content: center;
+	align-items: center; 
+	margin-top: -4%;
+	width: 500px;
+}
+.content2 p{
+	padding: 4px 50px;
+	margin-top:7.5%;
+	text-align: center;
+	line-height: 25px;
+	margin-top: 18px;
+
+	
+}
+.btn2{
+	font-size: 13px;
+	height: 4.5vh;
+	width: 100px;
+	margin-left: 1px;
+	color:#807B7B;
+	border-style: groove;
+	background-color: white;
+	cursor: pointer;
+	color:#5D5858;
+	border-radius: 4px;
+	letter-spacing: 1.9px;
+	border:2px solid #5D5858;
+	margin-top:14px;
+}
+.text1{
+	margin-top: 5.8% !important;
+	font-size: 20px;
+	position: absolute;
+	margin:0 auto;
+	letter-spacing: 7px;
+	color:white;
+	margin-left:4.5%;
+	font-weight: bold !important;
+	
+}
+.text3{
+	margin-top: 6.6% !important;
+	font-size: 20px;
+	position: absolute;
+	margin:0 auto;
+	letter-spacing: 5px;
+	color:white;
+	margin-left: 6.5% !important;
+	font-weight: bold !important;
+}
+.text4{
+	
+	margin-top: 6.8% !important;
+	font-size: 20px;
+	position: absolute;
+	margin:0 auto;
+	letter-spacing: 5px;
+	color:white;
+	margin-left: 6% !important;
+	font-weight: bold !important;
+
+	
+}
+
+.container5 {
+    justify-content: center;
+    align-items: center;
+	margin-top: -2.5% !important;
+
+}
+.lastpart{
+ 	 margin:0 auto;
+	padding:20px 0 70px 0;
+
+	
+
+}
+.lastpart h3{
+	font-family: 'lato', sans-serif;
+	font-size: 30px;
+	letter-spacing: 5px;
+	text-align: center;
+ 	color:grey;	
+	margin-top:18% !important;
+}
+.lastpart p{
+	font-family: 'lato', sans-serif;
+	text-align: center;
+ 	color:grey;
+  	font-size: 16.5px;
+	line-height: 27px;
+	padding-bottom: 10px;	
+	margin-top:2%;
+	
+}
+.lastpart .btn5{
+	display: flex;
+   font-size: 15px;
+   height: 5vh;
+   width: 19%;
+   margin-top: 20px !important;
+   color:#696464;
+   border-style: groove;
+   background-color: #EEEEEE;
+   cursor: pointer;
+   color:grey;
+   border-radius: 4px;
+   letter-spacing: 1.9px;
+   border:2px solid #847F7F;
+   justify-content: center;
+   margin: 0 auto;
 }
