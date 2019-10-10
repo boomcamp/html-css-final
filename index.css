@@ -2,8 +2,9 @@ html, body {
   font-family: Helvetica, sans-serif;
   font-size: 16px;
   background-color:#f4f4f4;
-  margin: 0 auto;
-  height: 2000px;
+  margin: auto;
+  width: 1366px;
+  height: 768px;
 }
 
 .f-color{
@@ -176,7 +177,7 @@ html, body {
 }
 
 .btn-get{
-  background-color: white;
+  background-color: #f4f4f4;
   padding: 15px 40px 13px 35px;
   margin-top: 11px;
   cursor: pointer;
