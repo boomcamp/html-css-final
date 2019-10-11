@@ -33,7 +33,6 @@ header
 main
 {
    margin: 65px 171px;
-   display: flex;
 }
 .container-1
 {
@@ -175,17 +174,3 @@ background-image: url(images/pic04.jpg);
   border: 1px solid gray;
   width: 90%;
 }
-@@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
- .container-1
- {
-   flex-direction: column;
- }
- .container-2
- {
-   flex-direction: column;
- }
- .container-3
- {
-   flex-direction: column;
- }
-  }
